@@ -880,3 +880,25 @@ git push origin main https://github.com/Kranthikumar30/myplaybooks.git
 git push origin main
 cd 
 exit
+ls
+cd myplaybooks/
+ls
+cd ..
+ls
+git status
+git add .
+git status
+git commint -m "commited"
+git commit -m "added"
+git remote add origin git@github.com:Kranthikumar30/myplaybooks.git
+git branch -M main
+ls
+git push origin main
+exit
+git push origin main git@github.com:Kranthikumar30/myplaybooks.git
+git push origin main
+git remote add origin git@github.com:Kranthikumar30/myplaybooks.git
+git remote -v
+git branch
+git log
+git pull origin main
