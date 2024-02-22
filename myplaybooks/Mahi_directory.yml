@@ -1,0 +1,10 @@
+---
+- name: This playbook is to create a Mahi_directory
+  hosts: all
+  become: true
+  tasks:
+  -  name: Creating a Mahi_directory
+     file:
+       path: /home/ansadmin/Mahi_directory
+       state: absent
+...

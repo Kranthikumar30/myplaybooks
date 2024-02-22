@@ -1,0 +1,11 @@
+---
+- name: Delete User
+  hosts: all 
+  become: true  # Run tasks with elevated privileges (sudo)
+
+  tasks:
+    - name: Ensure user is absent
+      user:
+        name: Bunny
+        state: absent
+

@@ -1,0 +1,25 @@
+---
+- name: Verifying to Install packages
+  hosts: all
+  become: true
+  tasks:
+  - name: Installing httpd package
+    yum:
+      name: httpd
+      state: installed
+
+  - name: Starting httpd service
+    service:
+      name: httpd
+      state: started
+
+  - name: Installing tree package
+    yum:
+      name: tree
+      state: installed
+
+  - name: Installing git package
+    yum:
+      name: git
+      state: installed
+

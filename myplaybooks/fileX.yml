@@ -1,0 +1,14 @@
+---
+- name: Create File
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Create a text file
+      ansible.builtin.copy:
+        content: "This is the content of the file."
+        dest: /home/ansadmin/fileX.txt
+        owner: Mahi
+        group: users
+        mode: '0644'
+

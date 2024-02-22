@@ -1,0 +1,35 @@
+---
+- name: creating users using vars_file
+  hosts: all
+  become: true
+  vars_files:
+  - user.yml
+
+  tasks:
+  - name: creating user {{user1}}
+    user:
+      name: "{{user1}}"
+
+  - name: creating user {{user2}}
+    user:
+      name: "{{user2}}"
+
+  - name: creating user {{user2}}
+    user:
+      name: "{{user2}}"
+
+  - name: creating user {{user3}}
+    user:
+      name: "{{user3}}"
+
+  - name: creating user {{user4}}
+    user:
+      name: "{{user4}}"
+
+  - name: creating user {{user5}}
+    user:
+      name: "{{user5}}"
+
+
+
+

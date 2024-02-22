@@ -1,0 +1,8 @@
+---
+- name: Create a user Mahi
+  hosts: all
+  become: true
+  tasks:
+  - name: Creating a user Mahi
+    user:
+      name: Mahi

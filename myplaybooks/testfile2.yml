@@ -1,0 +1,9 @@
+---
+- name: Create testfile2
+  hosts: all
+  become: true
+  tasks:
+  - name: Creating testfile2
+    file:
+      path: /home/ansadmin/testfile2
+      state: touch 
