@@ -763,3 +763,120 @@ cd roles/
 ls
 vi setup-apche-kkr.yml
 ls
+pwd
+cd roles/
+cd setup-apache-roles/
+ls
+tree
+cat files
+vi setup-apache-kkr.yml
+ls
+cd..
+cd ..
+ls
+cd setup-apache-roles/
+ls
+rm -rf setup-apache-kkr.yml 
+ls
+cd ..
+ls
+vi setup-apache-kkr.yml
+cd 
+ls
+ansible-playbook uninstall_httpd.yml
+ls
+cd roles/
+cd setup-apache-roles/
+cd ..
+ls
+cd 
+ansible all -a "rm -rf /var/www/html/index.html"
+ cat /var/www/html/index.html
+cd roles/
+ls
+cat setup-apche-kkr.yml
+cat setup-apache-kkr.yml
+rm -rf setup-apache-kkr.yml
+ls
+ansible-playbook setup-apache-kkr.yml
+ansible-playbook setup-apche-kkr.yml
+cat setup-apche-kkr.yml
+vi setup-apche-kkr.yml
+ansible-playbook setup-apche-kkr.yml
+cd /var/www/html
+cat var/www/html/index.html
+cd  
+ls
+cat /var/www/html/index.html
+cat index.html
+cd roles
+ls
+cd setup-apache-kkr.yml
+cd setup-apache-roles
+ls
+tree
+cat files/main.yml
+cd files
+ls
+cd ..
+vi tasks/main.yml
+vi handlers/main.yml
+cd ..
+cat setup-apache-kkr.yml
+vi setup-apche-kkr.yml
+ls
+cd 
+ls
+which git
+mkdir myplaybooks
+ls
+mv *.yml myplaybooks
+ls
+mv index.html roles myplaybooks
+ls
+cd myplaybooks/
+ls
+cd ..
+cd 
+git init
+git config --global user.name "Kranthi30"
+git config --global user.email "Kranthi30"
+git status
+git add .
+git status
+git commit -m "commited  myplaybooks "
+git status
+git remote add origin https://github.com/Kranthikumar30/myplaybooks.git
+git branch -M main
+git push origin main
+git remote add origin git@github.com:Kranthikumar30/myplaybooks.git
+git remote add origin https://github.com/Kranthikumar30/myplaybooks.git
+git push origin main
+git remote add origin git@github.com:Kranthikumar30/myplaybooks.git
+git push origin main
+git push -u origin main
+git push origin main https://github.com/Kranthikumar30/myplaybooks.git
+git remote add origin https://github.com/Kranthikumar30/myplaybooks.git
+git branch -M main
+git push origin main
+ 
+ls
+git status
+git push origin main
+Kranthi30
+git push origin main 
+exit
+ls
+git push origin main
+git push origin https://github.com/Kranthikumar30/myplaybooks.git
+git status
+git push origin main
+find ssh
+cd 
+find ssh.key
+grep ssh
+ls
+git push origin main https://github.com/Kranthikumar30/myplaybooks.git
+git push origin main
+cd 
+exit
